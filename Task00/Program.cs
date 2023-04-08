@@ -8,5 +8,4 @@
 Console.WriteLine("Ведите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 int square = number * number;
-Console.Write("число^2=");
-Console.WriteLine(square);
+Console.WriteLine($"квадрат числа {number} = {square}");
