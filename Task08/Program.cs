@@ -5,9 +5,11 @@
 
 Console.WriteLine("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-int count = 0+1;
+if (number < 0)
+    number = -number;
+int count = 0+2;
 while (count <= number)
 {
     Console.Write($"{count},");
-    count = count + 1;
+    count = count + 2;
 }
