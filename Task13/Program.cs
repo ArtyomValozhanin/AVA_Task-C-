@@ -18,12 +18,15 @@ int ThirdDigit (int num)
 Console.WriteLine("Введите любое число больше 99: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number >= 100)
-{
-    int result = ThirdDigit(number);
-     Console.WriteLine($"третья цифра: {result}");
-}
-else
-{
-         Console.WriteLine("третьей цифры нет");
-}
+// if (number >= 100)
+// {
+//     int result = ThirdDigit(number);
+//      Console.WriteLine($"третья цифра: {result}");
+// }
+// else
+// {
+//          Console.WriteLine("третьей цифры нет");
+// }
+
+string res = (number >= 100) ? $"третья цифра: {ThirdDigit(number)}" : "третьей цифры нет";
+Console.WriteLine(res);
