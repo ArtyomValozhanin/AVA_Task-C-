@@ -5,9 +5,7 @@
 // 918 -> 1
 int MidleDigit (int num)
 {
-    int firstDigit = num % 10;
-    int secondDigit = (num % 100 - firstDigit)/10;
-    return secondDigit;
+    return num % 100 / 10;
 }
 
 Console.WriteLine("Введите любое трехзначное число: ");
