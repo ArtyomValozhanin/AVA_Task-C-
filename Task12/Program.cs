@@ -15,6 +15,7 @@ Console.WriteLine("Введите число 1");
 int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 1");
 int number2 = Convert.ToInt32(Console.ReadLine());
+
 int result = Remainder(number1, number2);
 
 if (result == 0)
@@ -23,5 +24,5 @@ if (result == 0)
 }
 else
 {
-     Console.WriteLine($"числа не кратны {Remainder(number1, number2)}");
+     Console.WriteLine($"числа не кратны, остаток: {result}");
 }
