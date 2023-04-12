@@ -11,8 +11,8 @@ Console.WriteLine($"Случайное трехзначноечисло в ди�
 int DelCenter (int num)
 {
     int firstDigit = num / 100;
-    int thirgDigit = num % 10;
-    int answer = firstDigit * 10 + thirgDigit;
+    int thirdDigit = num % 10;
+    int answer = firstDigit * 10 + thirdDigit;
     return answer;
 }
 Console.WriteLine($"двузначное число {DelCenter(number)}");
