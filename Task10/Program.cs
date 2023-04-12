@@ -12,12 +12,14 @@ Console.WriteLine("Введите любое трехзначное число: 
 int number = Convert.ToInt32(Console.ReadLine());
 
 if (number < 0) number = -number;
-if (number >= 100 && number <= 999 )
-{
-    int result = MidleDigit(number);
-     Console.WriteLine($"вторая цифра: {result}");
-}
-else
-{
-         Console.WriteLine("число не трехзначное");
-}
+// if (number >= 100 && number <= 999 )
+// {
+//     int result = MidleDigit(number);
+//      Console.WriteLine($"вторая цифра: {result}");
+// }
+// else
+// {
+//          Console.WriteLine("число не трехзначное");
+// }
+string res = (number >= 100 && number <= 999) ? $"вторая цифра: {MidleDigit(number)}" : "число не трехзначное";
+Console.WriteLine(res);
