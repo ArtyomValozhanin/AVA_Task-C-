@@ -13,7 +13,7 @@ Console.Write("Введите число 2: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
 bool result = IsSquare(number1, number2);
-Console.WriteLine(result ? "да" : "нет");
+Console.WriteLine(result ? "да" : "нет"); // тернарный оператор
 
 bool IsSquare (int num1, int num2)
 {
