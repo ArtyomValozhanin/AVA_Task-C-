@@ -7,8 +7,8 @@
 // 16, 4 -> кратно
 int Remainder (int num1, int num2)
 {
-    int Remainder = num1 % num2;
-    return Remainder;
+    int remainder = num1 % num2;
+    return remainder;
 }
 
 Console.WriteLine("Введите число 1");

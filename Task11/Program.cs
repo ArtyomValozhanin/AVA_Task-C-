@@ -15,4 +15,5 @@ int DelCenter (int num)
     int answer = firstDigit * 10 + thirdDigit;
     return answer;
 }
-Console.WriteLine($"двузначное число {DelCenter(number)}");
+int delCenter = DelCenter(number);
+Console.WriteLine($"двузначное число {delCenter}");
