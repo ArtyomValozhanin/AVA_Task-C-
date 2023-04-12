@@ -6,7 +6,7 @@
 
 bool WeekEnd(int num)
 {
-    return num / 6 == 1 || num / 7 == 1;
+    return num > 5;
 }
 
 Console.WriteLine("Введите число дня недели от 1 до 7): ");
