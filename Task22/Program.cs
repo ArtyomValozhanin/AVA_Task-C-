@@ -8,7 +8,7 @@ void TableAllSquares(int num)
     while (count <= num)
     {
         Console.WriteLine($"{count, 3}  {count * count, 3}"); // 3 - резервирование места под кол-во символов
-        index++;
+        count++;
     }
 }
 
