@@ -8,7 +8,7 @@ void TableAllSquares(int num)
     while (index < num)
     {
         Console.WriteLine($"{index}  {index * index}");
-    index++;
+        index++;
     }
 }
 
