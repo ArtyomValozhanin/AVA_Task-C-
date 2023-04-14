@@ -6,7 +6,7 @@
 
 bool WeekEnd(int num)
 {
-    return num > 5;
+    return num == 6 || num == 7;
 }
 
 Console.WriteLine("Введите число дня недели от 1 до 7): ");
@@ -15,8 +15,8 @@ int number = Convert.ToInt32(Console.ReadLine());
 if (number >= 1 && number <= 7)
 {
     bool result = WeekEnd(number);
-    if (result == true) Console.WriteLine("да");
-    if (result == false) Console.WriteLine("нет");
+    if (result) Console.WriteLine("да");
+    else Console.WriteLine("нет");
 }
 else
 {
