@@ -5,7 +5,7 @@
 void TableAllSquares(int num)
 {
     int index = 1;
-    while (index < num)
+    while (index <= num)
     {
         Console.WriteLine($"{index}  {index * index}");
         index++;
