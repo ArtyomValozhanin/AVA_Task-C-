@@ -4,10 +4,10 @@
 
 void TableAllSquares(int num)
 {
-    int index = 1;
-    while (index <= num)
+    int count = 1;
+    while (count <= num)
     {
-        Console.WriteLine($"{index}  {index * index}");
+        Console.WriteLine($"{count}  {count * count}");
         index++;
     }
 }
