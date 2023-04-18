@@ -7,7 +7,7 @@
 int DigitCount (int num)
 {
     int sum = 0;
-    while (num > 0)
+    while (num != 0) // "!=" не равно 0
     {
         num = num / 10;
         sum++;
