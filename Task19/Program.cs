@@ -7,7 +7,7 @@
 
 bool PalindromeCheck(int num)
 {
-    return (num / 10000 == num % 10) || (num / 1000 == num % 100);
+    return (num / 10000 == num % 10) && (num / 1000 == num % 100);
 }
 
 Console.WriteLine("Введите любое пятизначное число: ");
