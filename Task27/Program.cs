@@ -13,7 +13,7 @@ Console.WriteLine($"Сумма чисел в числе {number} = {result}");
 int SumDigit(int num)
 {
     int count = 0;
-   while (num > 1)
+   while (num > 0 || num < 0)
     {
         count = count + num % 10 - 1;
         num = num / 10;             

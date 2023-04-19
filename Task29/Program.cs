@@ -11,10 +11,9 @@ PrintArray(array);
 Console.Write("\b\b");
 Console.Write("]");
 
-
 void CreateArray(int[] array)
 {
-    Random random = new Random(); // оптимизация объекта Random (var - объект неявной типизации)
+    Random random = new Random(); // оптимизация объекта Random
     for (int i = 0; i < array.Length; i++)
     {
         array[i] = random.Next(0, 100);
