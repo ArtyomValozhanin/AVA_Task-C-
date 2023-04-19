@@ -12,13 +12,13 @@ Console.WriteLine($"Произведение чисел от 1 до {number} = {
 
 int NumbersMultiplication(int num)
 {
-    int res = 1;
+    int multi = 1;
     for (int i = 1; i <= num; i++)
     {
         checked
         {
-            res *= i; // res = res * i;
+            multi *= i; // multi = multi * i;
         }
     }
-    return res;
+    return multi;
 }
