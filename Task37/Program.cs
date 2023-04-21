@@ -47,25 +47,3 @@ PrintArray(array);
 Console.Write("] -> ");
 
 PrintArray(result);
-
-// double[] CreateArrayRndDouble(int size, int min, int max)
-// {
-//     double[] arr = new double[size];
-//     Random rnd = new Random();
-
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         arr[i] = rnd.NextDouble() * (max - min) + min;
-//     }
-//     return arr;
-// }
-
-// void PrintArray (double[] arr)
-// {
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         double round = Math.Round(arr[i], 1);
-//         if(i < arr.Length - 1) Console.Write($"{round}, ");
-//         else Console.Write($"{round}");
-//     }
-// }

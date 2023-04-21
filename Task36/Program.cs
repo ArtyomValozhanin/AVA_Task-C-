@@ -39,7 +39,6 @@ int[] array = CreateArrayRndInt(6, 0, 10);
 Console.Write("[");
 PrintArray(array);
 Console.Write("] -> ");
-Console.WriteLine();
 
 int result = SumElementOddDigit(array);
-Console.WriteLine(result);
+Console.Write(result);
