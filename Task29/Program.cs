@@ -18,7 +18,6 @@ void CreateArray(int[] array)
     {
         array[i] = random.Next(0, 100);
     }
-    
 }
 
 void PrintArray(int[] array)
