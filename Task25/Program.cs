@@ -9,7 +9,7 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число B: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 
-if (numberB < 0) numberB = -numberB; // <- сообщить что ввод с "-" не верный
+if (numberB < 0) Console.WriteLine($"Число B должно быть положительным"); // <- сообщить что ввод с "-" не верный
 int result = PowNumbers(numberA, numberB);
 Console.WriteLine($"{numberA} ^{numberB} -> {result}");
 
