@@ -25,7 +25,7 @@ int CheckEvenNumber(int[] arr)
     int num = 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        if (arr[i]%2 == 0) num += arr[i]/arr[i];
+        if (arr[i]%2 == 0) num = num + 1;
     }
   return num;
 }
