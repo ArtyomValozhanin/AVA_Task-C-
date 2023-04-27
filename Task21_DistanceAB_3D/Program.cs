@@ -24,7 +24,6 @@ int yb = Convert.ToInt32(Console.ReadLine());
 Console.Write("z=");
 int zb = Convert.ToInt32(Console.ReadLine());
 
-
 double distanse = Distanse(xa, ya, za, xb, yb, zb);
 double distanseRound = Math.Round(distanse, 2);
 Console.WriteLine($"расстояние между точками = {distanseRound}");

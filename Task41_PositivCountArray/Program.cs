@@ -9,7 +9,7 @@ int[] CreateArray(int size)
     Console.WriteLine("Ниже, заполните массив числами:");
     for (int i = 0; i < array.Length; i++)
     {
-                array[i] = Convert.ToInt32(Console.ReadLine());
+        array[i] = Convert.ToInt32(Console.ReadLine());
     }
     return array;
 }

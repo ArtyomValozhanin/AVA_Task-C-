@@ -40,6 +40,14 @@ double FindDiffMinMaxElement(double[] arr)
     return diffMaxMin;
 }
 
+double[] array = CreateArrayRndDouble(6, -2, 20);
+Console.Write("[");
+PrintArray(array);
+Console.Write("]");
+Console.WriteLine();
+double diffresult = FindDiffMinMaxElement(array);
+Console.WriteLine($"Разница между Max и Min значениями массива = {diffresult}"); 
+
 // Решение отдельными методами:
 // double FindMinElement (double[] arr)
 // {
@@ -62,14 +70,6 @@ double FindDiffMinMaxElement(double[] arr)
 //     }
 //     return max;
 // }
-
-double[] array = CreateArrayRndDouble(6, -2, 20);
-Console.Write("[");
-PrintArray(array);
-Console.Write("]");
-Console.WriteLine();
-double diffresult = FindDiffMinMaxElement(array);
-Console.WriteLine($"Разница между Max и Min значениями массива = {diffresult}"); 
 
 // double resultMax = FindMaxElement(array);
 // double resultMin = FindMinElement(array);
