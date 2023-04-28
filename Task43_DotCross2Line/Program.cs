@@ -16,6 +16,7 @@ Console.WriteLine("Введите коэффициент k2: ");
 double numk2 = Convert.ToInt32(Console.ReadLine());
 
 if (numk2 == numk1) {Console.WriteLine("прямые параллельны");}
+// return;
 
 double resultX = FindCoordinateX(numb1, numk1, numb2, numk2);
 double resultXRound = Math.Round(resultX, 2);
