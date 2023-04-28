@@ -55,13 +55,13 @@ void PrintArray(double[] arr)
     for (int i = 0; i < arr.Length; i++)
     {
         double round = Math.Round(arr[i], 1);
-        if (i < arr.Length - 1) Console.Write($"{round, 2} | ");
+        if (i < arr.Length - 1) Console.Write($"{round, 2} ; ");
         else Console.Write($"{round}");
     }
     Console.Write("]");
 }
 
-int[,] matrix = CreateMatrixRndInt(4, 6, 1, 10);
+int[,] matrix = CreateMatrixRndInt(3, 5, 1, 10);
 PrintMatrix(matrix);
 Console.WriteLine();
 double[] ColumnsMeanArray = ArithMeanColumns(matrix);
